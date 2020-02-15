@@ -28,9 +28,31 @@ a {
   padding: 20px 40px;
   border: solid 1px black;
   margin-top: 20px;
+
+  position: relative;
 }
 
 #content {
   clear: both;
   padding-top: 20px;
+
+  margin-right: 150px;
+}
+
+.sidebarin {
+  background-color: orange;
+
+}
+
+.sidebarout {
+  background-color: rgb(229, 255, 0);
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+
+}
+
+.sidebarout a {
+  text-decoration: none;
 }
